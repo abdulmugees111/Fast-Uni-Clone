@@ -1,0 +1,19 @@
+.navimg{
+    display: flex;
+    height: auto;   
+    width: auto;
+    justify-content: space-between;
+
+}
+.img1{
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 60px;
+    width: auto;
+}
+.img2{
+    margin-right: 50px;
+    margin-top: 10px;
+    height: 60px;
+    width: auto;
+}

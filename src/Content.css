@@ -1,0 +1,13 @@
+.Content{
+    text-align: justify;
+    text-justify: inter-word;
+padding-left: 80px;
+padding-right: 80px;  
+}
+.video{
+    display: flex;
+    gap: 5%;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 10px;
+}

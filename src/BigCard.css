@@ -1,0 +1,179 @@
+.bcards{
+    
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    /* height: 300px; */
+    /* flex-flow: row; */
+    width: 100%;
+    height:auto ;
+
+}
+.bcard{
+   
+    /* display: flex; */
+    /* height: 225px;
+    margin: 5%; */
+    transition: all o.4s cubic-bezier(0.175,0.885,0,1);
+  background-color: #FAFAFA;
+  /* width: 50%; */
+  /* border-radius: 12px; */
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0);
+  /* float: left; */
+   
+}
+    /* .bcard:hover {
+        box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+        transform: scale(1.05, 1.05);
+        background-color: rgb(26, 78, 80);
+    } */
+   .bcard-info{
+    align-content: start; 
+  
+    /* background-color: white; */
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+    /* background-color: white; */
+  }
+
+  .bcard-category{
+    
+    font-family: "Raleway",sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: gray;
+    /* background-color: white; */
+  
+  
+  }
+  .bcard-title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Raleway",sans-serif;
+    /* background-color: white; */
+    text-transform: capitalize;
+  
+  }
+     @media (max-width: 768px){
+  .bcard{
+    float: none;
+    margin: 5%;
+    width: 90%;
+  
+  }
+  }
+
+ 
+  .bcardp{
+  
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+  }
+  .test{
+      margin-top: 20px;
+      width: 90%;
+      display: flex;
+      
+  }
+  .cardbtn{
+    margin-top: 20px;
+  }
+  .icon{
+    margin-top: 20px;
+  }
+  .bttn1{
+      margin-right: 5px;
+      border: none;
+      color: white;
+      background-color: rgb(68, 148, 214);
+  }
+  .bttn2{
+      margin-top: 10px;
+    margin-left: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(68, 148, 214);
+}
+.data{
+    display: flex;
+}
+.card-img{
+
+    height: 100%;
+    user-select: auto;
+    width: 300px;
+}
+
+/* .containerbtn {
+    position: relative;
+    width: 50%;
+  } */
+  
+  .bcardButton{ 
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 300px;
+    height: 40px;
+      width: 120px;
+      border: none;
+
+}
+  
+  /* .overlaybtn {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .containerbtn:hover .overlaybtn {
+    width: 100%;
+    left: 0;
+  }
+  .containerbtn, .containerbtn-fluid, .containerbtn-lg, .containerbtn-md, .containerbtn-sm, .containerbtn-xl, .containerbtn-xxl {
+    padding-left: 0% !important;  
+    } */
+
+
+
+
+.container {
+    position: relative;
+    width: 0%;
+  }
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+padding-left: 0% !important;  
+}
+  .hover{
+    height: auto;
+    /* width: 18px; */
+    background-color: #EAEDF5;
+}
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 8px;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  

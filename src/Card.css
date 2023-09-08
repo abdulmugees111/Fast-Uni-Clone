@@ -1,0 +1,173 @@
+
+
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+  } */
+  /* .heading-style{
+    padding: 30px 0;
+    text-align: center;
+    font-family: "Raleway",sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    color: darkgray;
+    font-size: 1.5rem;
+    margin-bottom: 30px; 
+  }
+   /* .card-img{
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px; 
+  
+  }*/
+  
+  /* .buttton {
+  padding: 5px  8px;
+  font-family: "Raleway", sans-serif ;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: grey;
+  background-color: white;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer; 
+  
+}*/
+
+  .cards{
+    margin-left: 18px;
+      flex-flow: row;
+    width: 100%;
+    height:auto ;
+  
+  }
+  .card{
+      height: 225px;
+    margin: 2%;
+    transition: all o.4s cubic-bezier(0.175,0.885,0,1);
+  background-color: white;
+  width: 20.25%;
+  border-radius: 5px;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0);
+  float: left;
+  
+  }             
+  
+  .card:hover {
+    color:white;
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05, 1.05);
+  background-color: #3FC0FB;
+ }
+  
+
+  
+  .card-info{
+  
+    /* background-color: white; */
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+    /* background-color: white; */
+  }
+  
+  .card-category{
+    font-family: "Raleway",sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    /* color: gray; */
+    /* background-color: white; */
+  
+  
+  }
+  .card-title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Raleway",sans-serif;
+    /* background-color: white; */
+    text-transform: capitalize;
+  
+  }
+     @media (max-width: 768px){
+  .card{
+    float: none;
+    margin: 5%;
+    width: 90%;
+  
+  }
+  }
+  .newsp{
+      
+padding-top: 20px;
+    height: 70px;
+    width: 70px;
+      /* background-size: 10px; */
+      background: #FAA52F;
+      border-radius: 35px;
+  }
+  .calp{
+      
+    padding-top: 20px;
+    height: 70px;
+    width: 70px;
+      /* background-size: 10px; */
+      background: #FDC835;
+      border-radius: 35px;
+  }
+  .row{
+      justify-content: center;
+  }
+  .news{
+    height: 100%;
+    width: 100%;
+  }
+  .cals{
+    height: 10px;
+    width: 100%;
+  }
+  .btn{
+    margin-left: 235px;
+    /* display: flex; */
+    /* padding-left: 255px; */
+  }
+  .btn1{
+    border: none;
+    margin-right: 510px;
+    height: 40px;
+      width: 120px;
+      /* margin-right: 525px; */
+      
+  }
+  .btn1:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05, 1.05);
+    background-color: #3FC0FB;
+   }
+
+  .btn2{
+    border: none;
+    height: 40px;
+      width: 120px;
+      /* margin-right: 525px; */
+  }
+  .btn2:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05, 1.05);
+    background-color: #3FC0FB;
+   }
+
+  .cardp{
+    margin-top: 25px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+  }

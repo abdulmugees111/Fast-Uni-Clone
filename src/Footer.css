@@ -1,0 +1,67 @@
+.background{
+    background-color: #242C42;
+  
+}
+.all{
+    padding: 55px;
+    margin-top: 20px;
+    display: flex;
+}
+.phone{
+    color:#0093DD;
+}
+.phone1{
+
+    color:white;
+}
+.icon{
+    word-spacing: 20px;
+    color: white;
+    /* background-color: white; */
+}
+.location{
+    color: white;
+}
+/* .left{
+    display: flex;
+} */
+.text2{
+display: flex;
+}
+.link{
+    margin-left: 25px;
+    color: #0093DD;
+}
+.nicon{
+color: #0093DD;
+}
+.texti{
+    margin-left: 25px;
+    color: white;
+}
+.textip{
+    display: flex;
+}
+.campus{
+   
+    margin: inherit;
+    color: #0093DD;  
+}
+.copy{
+    padding:8px;    
+    color: white;
+    height: 40px;
+    user-select: auto;
+    border-top: solid;
+    border-color: grey;
+    margin-top: 10px;
+    border-width: thin;
+
+}
+.ll{
+    
+    margin-left: 25px;
+}
+.right{
+    margin-left: 50px;
+}
